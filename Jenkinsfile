@@ -18,7 +18,7 @@ pipeline {
        stage('Build application')
        {
         steps {
-            bat 'npm run dev &'
+            bat '(npm run dev"&")'
         }
        }
        stage('Run Tests') {
